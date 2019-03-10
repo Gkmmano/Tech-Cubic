@@ -1,0 +1,54 @@
+body {
+  background: #333;
+  color: rgb(10, 10, 10);
+}
+
+.navbar {
+  border-bottom: #41f447 3px solid;
+  opacity: 0.8;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#home-section {
+  background: url(../img/a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  color: black;
+  
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  
+}
+
+#home-section .home-inner {
+  
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #41f447;
+  background: #333;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: rgb(51, 51, 51);
+  color: rgb(92, 238, 63);
+  padding: 5px;
+  border-radius: 5px;
+}
